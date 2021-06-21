@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<title>UwU</title>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="stylesgirl.css">
+    
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="allassets">
+        <h1>¿Quieres ser mi nobia?</h1>
+        <script src="js/Alertas.js"></script>
+        <a onclick="diceQueSi()" class="btn-neon">
+            <span id="1"></span>
+            <span id="2"></span>
+            <span id="3"></span>
+            <span id="4"></span>
+        Siii
+        </a>
+        <a onmousemove="" class="btn-no">
+            <span id="1"></span>
+            <span id="2"></span>
+            <span id="3"></span>
+            <span id="4"></span>
+        No:(
+        </a>
+    </div>
+
+</body>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particlesgirl.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script>
+        function diceQueSi(){
+            Swal.fire(
+  'Ya somos nobios',
+  'Eres preciosa <3',
+  'heart'
+)};
+    </script>
+    <script>
+        function mueve(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+    </script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    
+ 
+</body>

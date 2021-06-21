@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(22, 10, 21);
+    font-family: fantasy;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.btn-neon{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.btn-neon:hover{
+    background: pink;
+    box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+    transition-delay: 0.2s;
+}
+
+.btn-no{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1ms;
+}
+
+.btn-no:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition-delay: 1ms;
+}
+
+h1{
+    color: pink;
+    font-size: 30px;
+    position: relative;
+    z-index: 99;
+    top: -15px;
+    left: -30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.allassets{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    
+}
+
+.menul{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -280px;
+    left: 750px;
+    cursor: pointer;
+}
+
+.menul #span1,#span2,#span3{
+    position: absolute;
+    content: '';
+    background: pink;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+
+}
+
+#span2{
+    top: 9px;
+}
+
+#span3{
+    top: 18px;
+}
+
+#menu{
+    display: none;
+}
+
+#menu:checked ~ .menul #span1{
+    transform: rotate(140deg);
+    top: 9px;
+}
+
+#menu:checked ~ .menul #span2{
+    opacity: 0;
+}
+
+#menu:checked ~ .menul #span3{
+    transform: rotate(-140deg);
+    top: 9px;
+}
+
+
+
+

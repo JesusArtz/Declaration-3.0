@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(12, 11, 27);
+    font-family: fantasy;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.btn-neon{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.btn-neon:hover{
+    background: #4180FD;
+    box-shadow: 0 0 10px #4180FD, 0 0 40px #4180FD, 0 0 80px #4180FD;
+    transition-delay: 0.2s;
+}
+
+.btn-no{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1ms;
+}
+
+.btn-no:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition-delay: 1ms;
+}
+
+h1{
+    color: #4180FD;
+    font-size: 30px;
+    position: relative;
+    z-index: 99;
+    top: -15px;
+    left: -30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.allassets{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    
+}
+
+
+
+
+
